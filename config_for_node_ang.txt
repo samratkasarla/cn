@@ -1,0 +1,21 @@
+
+http {
+    server {
+        listen 80;
+        server_name <node.domain>;
+
+        return 200 "hello from port 80!\n";
+    }
+
+
+    server {
+        listen 80;
+        server_name <angular.domain>;
+
+        return 200 "hello from port 8080!\n";
+    }
+}
+
+
+
+** ports of angular and node should be exposed.

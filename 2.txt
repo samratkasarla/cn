@@ -1,0 +1,187 @@
+pwd
+
+echo
+
+date
+
+whoami
+
+id
+
+clear
+
+help
+
+whatis
+
+man
+
+***gzip
+
+***lz
+
+***tgz
+
+***uz
+
+***zforce
+
+cd 
+
+pwd
+
+ls
+
+ls -l
+
+ls -la
+
+****what is diff between apt update and apt upgrade ?
+
+ls -la odesk/
+
+ls -ld odesk/
+
+mkdir
+
+touch
+
+ls -l /usr > usrlisting
+
+touch test.html{1..1001}
+
+cp usrlisting listing_copy.txt
+
+copy listing_copy.txt example/
+
+copy -r example /tmp/expertslogin/
+
+mv listing_copy.txt usrcopy
+
+rm file2
+
+rm -r example/
+
+file /etc/passwd
+
+stat /etc/passwd
+
+cat /etc/passwd
+
+***less
+
+***more
+
+***head
+
+head -n 7
+
+tail 
+
+tail -n 8
+
+***wc
+
+wc   -l, -c, -w  
+https://www.geeksforgeeks.org/wc-command-linux-examples/
+What is difference between count of bytes and count of characters ?
+
+***grep
+
+***cut
+
+grep nologin /etc/passwd
+
+pico hello.txt
+
+nano hello.txt
+
+alias c="clear"
+
+sed -i
+
+w
+
+***last
+
+du
+du -sh /etc/passwd
+
+df 
+df -h
+
+***fdisk
+
+***netstat
+
+history
+
+passwd
+
+shutdown -h now
+
+***scp
+
+nslookup myip.opendns.com resolver1.opendns.com
+
+curl ifconfig.me
+
+How to Check Public IP Address Using Command Line In Windows 10/Windows 11
+========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

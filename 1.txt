@@ -1,0 +1,124 @@
+LF will be replaced by CRLF in nodejs.
+#ls -t | head -1
+
+source branch and target branch in Merge requests
+
+what is MR ?
+How to create MR?
+What is Source branch and Target branch ?
+
+
+what is assignee, milestone and labels ...we get this term while creating MR?
+
+Creating merge requests
+1.From the merge request list
+2.From an issue
+3.from the fork
+4.by sending the email
+
+are we going to create MR by mail ?
+
+https://docs.gitlab.com/ee/user/index.html
+
+Set up your organisation
+========================
+1.Namespaces
+personal namespaces, group namespaces
+
+2.Members
+members are those who have access to the project.
+Direct Member, Inherited member, being the member the group ehich is shared with the project.
+be a member the group that is shared with the project group.
+
+-I must have the owner or the maintainer role.
+
+Permissions in gitlab.
+=====================
+https://docs.gitlab.com/ee/user/permissions.html
+1. Guests are not active contributors in private projects. They can only see, and leave comments and issues.
+2. Reporters are read-only contributors: they can't write to the repository, but can on issues.
+3. Developers are direct contributors, and have access to everything to go from idea to production, unless something has been explicitly restricted (e.g. through branch protection).
+4. Maintainers are super-developers: they are able to push to master, deploy to production. This role is often held by maintainers and engineering managers.
+5. Admin-only features can only be found in /admin. Outside of that, admins are the same as the highest possible permission (owner).
+6. Owners are essentially group-admins. They can give access to groups and have destructive capabilities.
+7. Auditor cannot access /admin, group settings, and project settings. Auditor has read-only access to all other areas.
+
+
+Version control systems
+=======================
+
+1.centralized 
+2.Distributed EX. Git and Mercurial
+
+
+git config-list
+git: 'config-list' is not a git command. See 'git --help'.
+
+diff between #git checkout -b and #git checkout
+
+#git stash
+#git stash pop stash@{0}
+#git reset-soft, --hard, --mixed
+
+git stash
+=========
+
+Git stash is a built-in command with the distributed Version control tool in Git that locally stores all the most recent changes in a workspace and resets the state of the workspace to the prior commit state.
+Git stash acts as a mechanism to locally version files without those versions being seen by other developers who share the same git repository.
+
+Diff between git stash and git commit
+======================================
+#git error
+#git rebase
+
+.gitignore
+resolving the conflicts
+
+members
+roles
+rebase 
+resolving the conflicts
+
+All about git stash
+https://www.theserverside.com/definition/git-stash#:~:text=Git%20stash%20is%20a%20built,and%20git%20stash%20apply%20commands.
+
+#git reset
+
+deleting merged branches in gitlab.
+protecting the branch from unauthorized merge.
+
+Gitlab SaaS
+
+
+Terraform
+=========
+=========
+loops with count .
+mentioning collection variables with list(string)
+using count and [count.index]
+
+Installation methods of gitlab.
+================================
+1. Linux packages 
+2. Docker
+3. Source
+4. Helm Charts
+
+can Gitlab be installed on Kubernetes.
+
+where out gitlab is installed ?
+
+https://www.tutorialspoint.com/gitlab/gitlab_git_commands.htm
+
+#git rebase
+https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+** node app is running on 8080.
+** angular app is running on 4200
+** faced issue while installing angular cli.....it required latest version of node and npm....but got resoluved when used nvm package manager.
+
+** 
