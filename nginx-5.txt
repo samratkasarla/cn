@@ -1,0 +1,11 @@
+172.26.2.244
+54.204.162.162
+
+14th Nov 2022
+==============
+
+** used nginx as a reverse proxy....request coming on nginx are passed to localhost:8080.
+
+** while sleep 0.5; do curl http://nginx-handbook.test; done
+
+** used nginx as a load balancer....request coming on nginx will be 

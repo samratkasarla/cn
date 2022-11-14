@@ -1,21 +1,45 @@
+events {
+
+}
 
 http {
-    server {
-        listen 80;
-        server_name <node.domain>;
 
-        return 200 "hello from port 80!\n";
-    }
-
+    include /etc/nginx/mime.types;
 
     server {
         listen 80;
-        server_name <angular.domain>;
+        server_name localhost;
 
-        return 200 "hello from port 8080!\n";
+        location / {
+                proxy_pass "http://localhost:8080/";
+        }
     }
 }
 
 
 
-** ports of angular and node should be exposed.
+
+
+
+events {
+
+}
+
+http {
+
+    upstream backend_servers {
+        server localhost:3001;
+        server localhost:3002;
+        server localhost:3003;
+    }
+
+    server {
+
+        listen 80;
+        server_name nginx-handbook.test;
+
+        location / {
+            proxy_pass http://backend_servers;
+        }
+    }
+}
