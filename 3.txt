@@ -1,0 +1,15 @@
+Master-master replication
+==========================
+
+**Process of copying data from one database server to another,
+without any inconsistency.
+
+** to update data in everybranch. EX. account balance of bank accout.
+
+** Types of data replication- 1. Single master replication, 
+2. multi master replication.
+
+** In single master....slave servers are there to read the data ...
+writes can only be done from master database.
+
+**  

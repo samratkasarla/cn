@@ -1,0 +1,3 @@
+#cut
+https://www.geeksforgeeks.org/cut-command-linux-examples/
+
