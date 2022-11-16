@@ -4,4 +4,5 @@
 
 16.nov.2022
 ** documentation of nginx as reverse proxy and loadbalancer.
+** master-master replication.
 ** 

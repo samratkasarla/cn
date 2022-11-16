@@ -1,3 +1,21 @@
 16.nov.2022
+===========
 ** #curl -i http://nginx-handbook.test   ...here what is -i option for.
-** 
+#grep '^sudo:.*$' /etc/group | cut -d: -f4
+=> command to find out all sudo users in linux.
+
+#awk -F':' '{ print $1}' /etc/passwd
+=> Command to find out all users in linux.
+
+** to find out which process is using the file
+#lsof /etc/sudoers
+
+** to add mysql user in group sudo.
+#usermod -aG sudo mysql
+
+#grep "configuration file" /etc/mysql/conf.d/* etc/mysql/mysql.conf.d/*
+
+
+
+
+

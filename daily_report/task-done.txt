@@ -4,5 +4,10 @@
 
 16.11.2022
 ** nginx-reverse proxy documentation done.
-** 
+** nginx-loadbalancer documentation done.
+** https://www.linkedin.com/pulse/multi-master-replication-relational-databases-scaling-ran-bechor   ....this article is about database replication,
+why we need replication (performance and availability), single master replication, multimaster replication.
+** https://ubiq.co/database-blog/how-to-run-multiple-mysql-instances-on-same-machine/  ....running multiple database instance on same machine.
+
+
  

@@ -15,22 +15,12 @@ https://hevodata.com/learn/installing-mysql-on-ubuntu-20-04/#t4
 
 ** Took time for running multiple mysql instance on same server.
 
-#grep '^sudo:.*$' /etc/group | cut -d: -f4
-=> command to find out all sudo users in linux.
-
-#awk -F':' '{ print $1}' /etc/passwd
-=> Command to find out all users in linux.
-
-** to find out which process is using the file
-#lsof /etc/sudoers 
+ 
 
 @@@ Facing issue while running multiple database instance on same server.
 @@@ iT may take more time to create master-master replication.
 
-** to add mysql user in group sudo.
-#usermod -aG sudo mysql
+
 
 @@@ facing issue while initializing the database.
-
-#grep "configuration file" /etc/mysql/conf.d/* etc/mysql/mysql.conf.d/*
 
