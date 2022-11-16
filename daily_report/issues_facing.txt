@@ -1,2 +1,4 @@
 16.nov.2022
 ** facing issue for running visual studio in citrix.
+** facing issue for managing cn portal an hubstaff.
+** how to run angular application in detach mode.
