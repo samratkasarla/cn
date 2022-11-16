@@ -1,0 +1,2 @@
+16.nov.2022
+** facing issue for running visual studio in citrix.

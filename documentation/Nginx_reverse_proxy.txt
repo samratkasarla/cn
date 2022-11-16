@@ -1,0 +1,12 @@
+** First we need simple node.js application running.
+** In this case it is running on port 8080.
+** That can be verified by running command #curl localhost:8080, on
+terminal.
+
+** Now to install nginx on server.
+RUN
+#sudo apt update && sudo apt upgrade -y
+#sudo apt install nginx -y
+
+** Path of configuration file is /etc/nginx/nginx.conf
+

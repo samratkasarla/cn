@@ -1,0 +1,7 @@
+** documentation
+** nginx as load balancer, nginx as reverse proxy
+** master-master replication.
+
+16.nov.2022
+** documentation of nginx as reverse proxy and loadbalancer.
+** 
