@@ -1,0 +1,13 @@
+16.nov.2022
+===========
+** what is data directory and base directory in mysql.
+
+17.nov.2022
+===========
+** mysql -u root -p -S /var/run/mysqld/mysqld1.sock
+** mysql> show variables like 'server_id';
+** mysql> SELECT @@server_id as SERVER_ID;
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+** That error means the file /var/run/mysqld/mysqld.sock doesn't exists
+
+

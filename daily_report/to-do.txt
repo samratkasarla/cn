@@ -9,4 +9,5 @@
 
 17.nov.2022
 ** master-master replication with two database instance in same machine.
-** 
+** complete lms training.
+** to do master-master replication running two database instance is first step. so worked on that.

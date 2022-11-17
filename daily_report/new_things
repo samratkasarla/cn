@@ -1,0 +1,5 @@
+17.nov.2022
+===========
+** apt install apparmor-utils
+** aa-disable /usr/sbin/mysqld
+

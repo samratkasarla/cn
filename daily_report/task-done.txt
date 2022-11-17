@@ -12,6 +12,11 @@
 
 
 17.nov.2022
+** https://www.toptal.com/mysql/mysql-master-slave-replication-tutorial   .....it is related to master-slave replication on same machine.
+** completed git training (lms)
+** completed empathy training (lms)
+** https://bugs.mysql.com/bug.php?id=82281   .... got solution for data-directory initialization error in this.
+** https://ubiq.co/database-blog/how-to-run-multiple-mysql-instances-on-same-machine/ ... running multiple database on same machine
 ** 
 
 

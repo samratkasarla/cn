@@ -10,4 +10,8 @@ master-master-replication
 
 
 17.nov.2022
-**
+** lms training vedios not playing sound.
+** master-master replication is completely new for me, need more r n d on this.
+** i was stuck on data-directory initialization error.
+** so finally data-directory is solved, new database instance with server-id=2 is initialized, trying to connect it with commandline,
+but it asking for password. but i have not assigned any password to it.
