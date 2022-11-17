@@ -6,3 +6,7 @@
 ** documentation of nginx as reverse proxy and loadbalancer.
 ** master-master replication.
 ** 
+
+17.nov.2022
+** master-master replication with two database instance in same machine.
+** 

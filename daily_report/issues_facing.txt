@@ -6,3 +6,8 @@
 master-master-replication
 ** master-master replication where is only one database instance is there....no content over internet.
 ** #mysqld --initialize --user=mysql --datadir=/data/mysql/mysql1......this command is for initializing the database...but not executing.
+** facing data directory initialization.
+
+
+17.nov.2022
+**

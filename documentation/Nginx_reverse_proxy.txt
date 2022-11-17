@@ -51,4 +51,6 @@ forwarded to localhost:8080.
 
 ** In this case , i have run nodejs application on docker container.
 
-54.204.162.162
+54.204.162.162 -> this is the public ip address of the server.
+
+
