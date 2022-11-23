@@ -11,3 +11,23 @@
 ** master-master replication with two database instance in same machine.
 ** complete lms training.
 ** to do master-master replication running two database instance is first step. so worked on that.
+
+18.nov.2022 
+** Continue with master-master replication with two database runnung in same machine.
+** 
+
+19.nov.2022 -saturday
+20.nov.2022 -sunday
+
+21.nov.2022 -monday
+** master-master replication on same machine.
+** continue with other way....other than renaming the socket-file
+
+22.nov.2022 -tuesday
+** master-master replication with docker.
+
+23.nov.2022 -wednesday
+** master-master replication with two databases running on diff server.
+
+
+

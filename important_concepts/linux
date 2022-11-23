@@ -16,6 +16,12 @@
 #grep "configuration file" /etc/mysql/conf.d/* etc/mysql/mysql.conf.d/*
 
 
+18.nov.2022
+===========
+** https://www.geeksforgeeks.org/process-management-in-linux/   ...process management in linux, nice value.
+** 
+
+
 
 
 

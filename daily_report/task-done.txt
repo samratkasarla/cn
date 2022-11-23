@@ -17,7 +17,26 @@
 ** completed empathy training (lms)
 ** https://bugs.mysql.com/bug.php?id=82281   .... got solution for data-directory initialization error in this.
 ** https://ubiq.co/database-blog/how-to-run-multiple-mysql-instances-on-same-machine/ ... running multiple database on same machine
+** data_directory initialization is resolved but not able to open mysql command-line of second instance...[[so need two server to practice master-master replication]]
+
+
+18.nov.2022
+** trying to connect mysql workbench with database in remote server.
+** https://www.computernetworkingnotes.com/linux-tutorials/different-types-of-files-in-linux.html#:~:text=Linux%20supports%20seven%20different%20types,file%2C%20and%20Named%20pipe%20file.
+-> gone through this article understand file types.
 ** 
+
+19.nov.2022 -saturday
+20.nov.2022 -sunday
+
+21.nov.2022 
+** Done KT with Varsha patil, for understanding of workflow of utiliko.
+** tried to to do replication with docker.
+** https://www.tutorialworks.com/container-networking/  ....container networking
+** https://www.digitalocean.com/community/questions/how-to-ping-docker-container-from-another-container-by-name ...ping between containers.
+** https://stackoverflow.com/questions/69936021/error-002061-authentication-plugin-caching-sha2-password-reported-error-aut ..to resolve link error.
+
+
 
 
  

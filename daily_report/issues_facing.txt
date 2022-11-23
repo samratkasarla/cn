@@ -15,3 +15,15 @@ master-master-replication
 ** i was stuck on data-directory initialization error.
 ** so finally data-directory is solved, new database instance with server-id=2 is initialized, trying to connect it with commandline,
 but it asking for password. but i have not assigned any password to it.
+
+18.nov.2022
+** data_directory is created but socket file is not ,socket file is required to open mysql CLI.
+** not able to read, copy, move mysql.sock file in any way. because its a socket type file, it cannot be read in general ways.
+
+19.nov.2022 -saturday
+20.nov.2022 - sunday
+
+21.nov.2022 -monday
+** official mysql image have no vim, vi or nano.
+** database in diff container is running ...but not able to establish link between container.....thats why i need time to research on that.
+and also on docker network....and inter container communication.

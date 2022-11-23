@@ -3,3 +3,22 @@
 ** apt install apparmor-utils
 ** aa-disable /usr/sbin/mysqld
 
+18.nov.2022
+** apt install nmap ..... to use "ncat" command ....#ncat -U mysqld.sock.
+** 
+
+19.nov.2022 - saturday
+20.nov.2022 - sunday
+
+21.nov.2022 -monday
+** https://stackoverflow.com/questions/72954869/how-to-install-vim-in-a-docker-image-based-on-mysql-version-8   ....installing vim in mysql 
+ official docker image.
+** https://vnextcoder.wordpress.com/2016/09/19/mysql-master-master-replication-setup-on-docker/   ----replication using docker.
+
+22.nov.2022 -tuesday
+
+23.nov.2022 -wednesday
+** https://medium.com/featurepreneur/a-guide-to-dockerize-your-node-js-application-c24b5e129995  ---dockerizing node application
+** https://hub.docker.com/_/mysql  ---mysql official docker image.
+** 
+

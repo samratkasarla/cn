@@ -1,5 +1,7 @@
 https://www.w3schools.com/sql/sql_select.asp
 
+
+
 16.nov.2022
 ===========
 ** what is data directory and base directory in mysql.
@@ -11,5 +13,10 @@ https://www.w3schools.com/sql/sql_select.asp
 ** mysql> SELECT @@server_id as SERVER_ID;
 ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
 ** That error means the file /var/run/mysqld/mysqld.sock doesn't exists
+
+18.nov.2022
+** https://www.w3schools.com/sql/sql_orderby.asp  ...progress of sql study
+** mysqld.sock ...it's not a regular file, but a special file used to communicate with the application that creates it (in this case mysqld)
+If you stop mysqld it will go away
 
 
