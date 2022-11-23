@@ -20,5 +20,7 @@
 23.nov.2022 -wednesday
 ** https://medium.com/featurepreneur/a-guide-to-dockerize-your-node-js-application-c24b5e129995  ---dockerizing node application
 ** https://hub.docker.com/_/mysql  ---mysql official docker image.
-** 
-
+** https://www.scalahosting.com/kb/how-to-check-mysql-version-via-the-command-line/#:~:text=To%20check%20the%20version%20your,V)%20in%20the%20command%20line.&text=As%20you%20can%20see%2C%20the,12.
+    ----to check mysql version
+** https://www.mysqltutorial.org/mysql-drop-database/   ....to delete database
+** https://dev.mysql.com/doc/refman/8.0/en/change-master-to.html  ....important info of Change master.
