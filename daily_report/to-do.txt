@@ -29,5 +29,9 @@
 23.nov.2022 -wednesday
 ** master-master replication with two databases running on diff server.
 
+24.nov.2022
+** loadbalancing where...node app and angular app is running on diff server.
+** Samrat Please update qa-release/v4.3.5 branch with qa code in both UI & API.
+
 
 

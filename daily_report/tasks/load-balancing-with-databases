@@ -1,0 +1,156 @@
+Strategy
+========
+1. deploy node and angular application on each server.
+2. 
+
+
+
+
+
+==================================================================================================================
+24.nov.2022 -Thursday &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+==================================================================================================================
+
+**      3.36.93.16        172.26.15.58       loadbalancer
+**      54.204.162.162    172.26.2.244       running angular app
+**      34.227.76.200     172.26.12.134      running node app
+** 
+** facing issue for copying file to docker container...which is nginx container.
+** some linux commands like vim dont work in official image of nginx.
+
+ISSUE: Getting invalid host header when trying to access angular app from another browser.
+-----> facing issue while starting angular application.....getting invalid hearder host error. 
+-----> https://medium.com/@AvinashBlaze/what-is-this-invalid-host-header-error-9cd760ae6d16 ...gone through this article to solve invalid host header error.
+-----> we generally get this error when we try to connect application from another server....where application is not deployed.
+
+1.###### Angular app is running on server and accessible from all server, nginx used as webserver#######################
+
+ISSUE: not able to install latest version of nodejs and npm.
+
+** once nvm script is run.....you need to restart the terminal.
+** sed  -i '1i 172.26.12.134 node.test' /etc/hosts
+
+ISSUE: Node app server is showing bad gateway error. when trying to access the app from browser.
+-----> It was because there is s in proxy-pass...and site is not yet attached ssl. so it should be http://localhost:8080, instead of
+https://localhost:8080
+
+2.###### node app is running of server and accessible, nginx used as webserver #####################
+
+** docker cp foo.txt container_id:/foo.txt
+** docker exec -i loadbalancer-nginx sh -c "vim /etc/nginx/nginx.conf"
+
+
+=============================================================================================================
+25.nov.2022 -Friday  &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+=============================================================================================================
+
+**  #ng serve --open --host 0.0.0.0 --disable-host-check true
+
+ISSUE: how to deploy anguler application in detach mode.
+ISSUE: how to deploy node-app in detach mode.
+
+** https://sumantmishra.medium.com/how-to-deploy-node-js-app-on-aws-with-github-db99758294f1 .... for deploying node app in aws instance.
+
+ISSUE: How to ping between servers with their private ip.
+
+** only load balancer should be able to ping app-server.
+** https://aws.amazon.com/premiumsupport/knowledge-center/ec2-block-or-allow-ips/ ......how to allow specific ip address on aws instance.
+** node index.js &
+**  #while sleep 0.5; do curl http://nginx-handbook.test; done
+** https://medium.com/coinmonks/how-to-deploy-an-angular-app-8db1af39f8c1 .... for deploying angular app 
+
+=======================
+26.nov.2022 -Saturday
+=======================
+=======================
+27.nov.2022 -Sunday
+=======================
+
+====================================================================================================
+28.nov.2022 -Monday &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+====================================================================================================
+
+1.###### Loadbalancing on server is done.
+
+** Kartik told me changes in loadbalancing. so will work on that.
+** Load balancing is done on Ip addresses. Now that will be done on domains.
+
+====================================================================================================
+29.nov.2022 -Tuesday &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+====================================================================================================
+** 5.dec.2022 --release date
+** If i configure for cdui. in load balancer...requests from cdapi are also going on that.
+
+ events {
+
+}
+
+http {
+
+    server {
+
+        listen 80;
+        server_name cdui.utiliko.xyz;
+
+        location / {
+            root /var/www/html/cdui-utiliko;
+        }
+    }
+    server {
+        listen 80;
+        server_name cdapi.utiliko.xyz;
+
+        location / {
+                proxy_pass "http://localhost:3100";
+              }
+        }
+
+}
+
+=====================================================================================================================
+30.nov.2022 -Wednesday &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+=====================================================================================================================
+
+**      3.36.93.16        172.26.15.58       
+**      54.204.162.162    172.26.2.244       
+**      34.227.76.200     172.26.12.134   
+** absence of evidence is not evidence of absence.
+** "To whom it may concern"    "I am writing today regarding"    ""   
+
+
+==================================================================================================================
+01.Dec.2022 -Thursday &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+==================================================================================================================
+
+to-do: How to install SSL for website 
+
+** #sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
+** [[ Requesting a certificate for cdapi.utiliko.xyz and cdui.utiliko.xyz
+
+Certbot failed to authenticate some domains (authenticator: nginx). The Certificate Authority reported these problems:
+  Domain: cdapi.utiliko.xyz
+  Type:   connection
+  Detail: 54.204.162.162: Fetching http://cdapi.utiliko.xyz/.well-known/acme-challenge/4n-3wlF94vSYDxsXX80rUaFvxJqdfgFIgphxSh0HX34: Error getting validation data
+
+  Domain: cdui.utiliko.xyz
+  Type:   unauthorized
+  Detail: The key authorization file from the server did not match this challenge "9Ai4dLmG6YTZmF0PWGuY8YVbqRAyRBKoKFiVAiiqyVA.sUcNVu4bO6ZG9WZGH-KERRuBkwVQq61ySHm7tjjbFGI" != "Message from cdui 34.227.76.200"
+
+Hint: The Certificate Authority failed to verify the temporary nginx configuration changes made by Certbot. Ensure the listed domains point to this nginx server and that it is accessible from the internet.
+
+Some challenges have failed.
+Ask for help or search for solutions at https://community.letsencrypt.org. See the logfile /var/log/letsencrypt/letsencrypt.log or re-run Certbot with -v for more details. ]]
+
+
+
+
+
+
+
+
+
+
+
+
+

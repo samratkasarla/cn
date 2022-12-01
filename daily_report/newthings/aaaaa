@@ -24,3 +24,15 @@
     ----to check mysql version
 ** https://www.mysqltutorial.org/mysql-drop-database/   ....to delete database
 ** https://dev.mysql.com/doc/refman/8.0/en/change-master-to.html  ....important info of Change master.
+
+24.nov.2022 
+** docker exec -i loadbalancer-nginx sh -c "vim /etc/nginx/nginx.conf"
+** docker cp foo.txt container_id:/foo.txt
+** docker run -v /doesnt/exist:/foo -w /foo -i -t ubuntu bash
+** https://docs.docker.com/engine/reference/commandline/run/
+** https://medium.com/@AvinashBlaze/what-is-this-invalid-host-header-error-9cd760ae6d16 ... to solve invalid host hearder error
+** https://docs.npmjs.com/try-the-latest-stable-version-of-npm  ... for installing latest stable version of npm.
+** use nvm package manager for installing latest version of node and npm.
+** sed  -i '1i 172.26.12.134 node.test' /etc/hosts
+
+

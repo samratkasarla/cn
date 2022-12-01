@@ -34,7 +34,13 @@
 ** tried to to do replication with docker.
 ** https://www.tutorialworks.com/container-networking/  ....container networking
 ** https://www.digitalocean.com/community/questions/how-to-ping-docker-container-from-another-container-by-name ...ping between containers.
-** https://stackoverflow.com/questions/69936021/error-002061-authentication-plugin-caching-sha2-password-reported-error-aut ..to resolve link error.
+** https://stackoverflow.com/questions/69936021/error-002061-authentication-plugin-caching-sha2-password-reported-error-aut ..to resolve link error
+
+24.nov.2022
+** master-master replication done.  database instances are on diff servers.
+** Samrat Please update qa-release/v4.3.5 branch with qa code in both UI & API
+** 
+
 
 
 

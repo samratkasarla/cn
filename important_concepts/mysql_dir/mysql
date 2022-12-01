@@ -19,4 +19,7 @@ ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run
 ** mysqld.sock ...it's not a regular file, but a special file used to communicate with the application that creates it (in this case mysqld)
 If you stop mysqld it will go away
 
+19.nov.2022
+** 
+
 
