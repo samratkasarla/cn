@@ -35,4 +35,20 @@
 ** use nvm package manager for installing latest version of node and npm.
 ** sed  -i '1i 172.26.12.134 node.test' /etc/hosts
 
+========================================================
+1.Dec.2022 -Thursday &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+========================================================
+
+** Kubernetes- orchestration, self healing, scaling containerization. 
+** Wordpress- SSL certificate, applyng ssl with go daddy.
+** 
+
+========================================================
+02.Dec.2022 -Friday &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+========================================================
+
+** sql, shell scripting, linux, docker, kubernetes, terraform, gitlab-cicd, javascript, wordpress, angular, nodejs, aws -lightsail
+** One domain mapped to multiple ip address is a technique of round robin load balancing.
+** 
+
 

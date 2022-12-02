@@ -126,31 +126,12 @@ to-do: How to install SSL for website
 
 ** #sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
-** [[ Requesting a certificate for cdapi.utiliko.xyz and cdui.utiliko.xyz
-
-Certbot failed to authenticate some domains (authenticator: nginx). The Certificate Authority reported these problems:
-  Domain: cdapi.utiliko.xyz
-  Type:   connection
-  Detail: 54.204.162.162: Fetching http://cdapi.utiliko.xyz/.well-known/acme-challenge/4n-3wlF94vSYDxsXX80rUaFvxJqdfgFIgphxSh0HX34: Error getting validation data
-
-  Domain: cdui.utiliko.xyz
-  Type:   unauthorized
-  Detail: The key authorization file from the server did not match this challenge "9Ai4dLmG6YTZmF0PWGuY8YVbqRAyRBKoKFiVAiiqyVA.sUcNVu4bO6ZG9WZGH-KERRuBkwVQq61ySHm7tjjbFGI" != "Message from cdui 34.227.76.200"
-
-Hint: The Certificate Authority failed to verify the temporary nginx configuration changes made by Certbot. Ensure the listed domains point to this nginx server and that it is accessible from the internet.
-
-Some challenges have failed.
-Ask for help or search for solutions at https://community.letsencrypt.org. See the logfile /var/log/letsencrypt/letsencrypt.log or re-run Certbot with -v for more details. ]]
-
-
-
-
-
-
-
-
-
-
-
-
-
+** soft link and hard link
+** #sudo certbot --nginx -d example.com -d www.example.com
+** https://community.letsencrypt.org/t/error-while-certificate-with-certbot-already-try-some-of-topics/153636   ...to solve error got while getting ssl certificate
+** https://www.globalsign.com/en/blog/top-ssl-certificate-errors-and-solutions .. common SSL errors
+** https://www.pcworld.com/article/406388/dns-record-will-help-prevent-unauthorized-ssl-certificates.html 
+** DNS Records https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/
+** https://superuser.com/questions/577070/is-it-possible-for-many-domain-names-to-share-one-ip-address#:~:text=It%20is%20called%20a%20Shared,with%20a%20single%20IP%20address. 
+many domains mapped to one ip address
+** pulumi.
