@@ -1,5 +1,5 @@
 ========================================================
-07.dec.2022 -Friday &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+07.dec.2022 -Wednesday &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 ========================================================
 
 ** https://medium.com/@vinodkrane/microservices-scaling-and-load-balancing-using-docker-compose-78bf8dc04da9 loadbalancing with docker
@@ -22,7 +22,7 @@
 
 ** #aws amplify
 
-** 
+**   
 
 version: "3.4"
 services:
@@ -30,5 +30,18 @@ services:
         build: .
         ports:
           - "8080"
+
+
+
+* clientGit/v4.3.5
+ Surveys/v4.3.5
+ tasks/v4.3.5
+ git-issue/v4.3.5
+ leadStage/v4.3.5
+ meetingss/v4.3.5
+
+to qa-release/v4.3.5
+
+
 
 
