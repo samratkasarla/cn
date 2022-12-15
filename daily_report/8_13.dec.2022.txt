@@ -1,0 +1,31 @@
+========================================================
+13.dec.2022 -Monday &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+========================================================
+
+** https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-setup-an-Nginx-load-balancer-example
+** 
+
+events {
+
+}
+
+http {
+
+    server {
+
+        listen 80;
+        server_name nginx-handbook.test;
+
+        return 200 "Bonjour, mon ami!\n";
+    }
+
+}
+
+
+
+** ps aux --sort=-%mem | head
+** ng build --prod --aot --build-optimizer
+
+** https://medium.com/codex/load-balancing-with-nginx-7d1bb4c24d5d
+
+** https://tasnuva2606.medium.com/http-load-balancing-using-nginx-869ca9377fb9
