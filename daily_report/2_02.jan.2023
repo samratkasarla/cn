@@ -1,0 +1,36 @@
+========================================================
+02.jan.2023 - Monday &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+========================================================
+modifier_fixes/v2.0.101 is not in api also but modifier-fixes/v2.0.101 is there....so you must have used modifier-fixes/v2.0.101 ?
+
+modifier_fixes/v2.0.101     modifier_fixes/v2.0.10
+
+SmartWait_Fixes   smartWAIT-fixes     deleting this branches.
+
+modifier_fixes/v2.0.101
+smartwait_fixes/v2.0.101
+
+
+From gitlab.vivantcorp.com:milagro/milagro-ui
+ ! [new branch]          smartwait_fixes/v2.0.101 -> origin/smartwait_fixes/v2.0.101  (unable to update local ref)
+https://stackoverflow.com/questions/10068640/git-error-on-git-pull-unable-to-update-local-ref
+
+smartwait_fixes/v2.0.101
+SmartWait_Fixes
+we have this two branches in milagro ui . because this has almost same prefixes giving error in git fetch --all.
+
+
+landscape-filter/sprint011023   (ui only ) 
+multi-select-filter/sprint011023
+client/sprint011023      (ui only ) 
+global-search/sprint011023
+color-code/sprint011023
+export-entire-report/sprint011023
+
+
+
+
+** cicd is done. issue in 34.227.76.200
+** installed docker using official documentation of docker for ubuntu.
+
+Retrospective call.
